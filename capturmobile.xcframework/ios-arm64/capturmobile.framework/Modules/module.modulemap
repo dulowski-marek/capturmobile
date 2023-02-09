@@ -1,0 +1,8 @@
+framework module capturmobile {
+    umbrella header "capturmobile.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
