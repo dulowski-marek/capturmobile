@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class CapturmobileVerifyImageUIState, CapturmobileCapturError, CapturmobileVerifyImageUIStateError, CapturmobileVerifyImageUIStateFailure, CapturmobileVerifyImageUIStateInitial, CapturmobileVerifyImageUIStatePending, CapturmobileVerifyImageUIStateSuccess, CapturmobileVerifyImageRemotely, CapturmobileResponse<T>, CapturmobileCaptur, CapturmobileVerifyImageUseCase, CapturmobileVerifyImageLocallyUseCase, CapturmobileVerifyImageRemotelyUseCase, CapturmobileVerifyImageViewModel, CapturmobileCapturAnalyticsConfiguration, CapturmobileCapturApiConfiguration, CapturmobileCapturAuxiliaryConfiguration, CapturmobileCapturLoggerConfiguration, CapturmobileCapturLoggerLevel, CapturmobileKotlinEnumCompanion, CapturmobileKotlinEnum<E>, CapturmobileKotlinArray<T>, CapturmobileImageVerifierProxy, CapturmobileBaseInteractor, CapturmobileInstantDecisionUploadRequestBody, CapturmobileInstantDecisionUploadResponse, CapturmobileLocation, CapturmobileInstantDecisionUploadPayloadCompanion, CapturmobileInstantDecisionUploadPayload, CapturmobileRequestType, CapturmobileRequestTypePOST, CapturmobileInstantDecisionUploadRequestBodyCompanion, CapturmobileInstantDecisionUploadResponseData, CapturmobileInstantDecisionUploadResponseCompanion, CapturmobileInstantDecisionUploadResponseDataCompanion, CapturmobileLocationCompanion, CapturmobileKotlinByteArray, CapturmobileCompressionResult, CapturmobileImageVerifierOutput, CapturmobileImageVerifierInputImage, UIImage, CapturmobileRecordType, CapturmobileImageVerifierInputImageType, CapturmobileVerifyImage, CapturmobileVerifyImageLocally, CapturmobileAnalyticalConfig, CapturmobileEvent, CapturmobilePayloader, CapturmobileAnalyticsManager, CapturmobilePayloaderCompanion, CapturmobilePayloaderBuilderCompanion, CapturmobilePayloaderBuilder, CapturmobileCapturErrorFailedToCompressImage, CapturmobileCapturErrorGeneralError, CapturmobileCapturErrorImageValidationFailed, CapturmobileCapturErrorImageValidationFailedLocally, CapturmobileCapturErrorImageValidationFailedRemotely, CapturmobileCapturErrorNetworkingIssue, CapturmobileKotlinThrowable, CapturmobileKotlinException, CapturmobileKtor_client_coreHttpClient, CapturmobileKotlinx_serialization_jsonJson, CapturmobileInstantDecisionResponseData, CapturmobileInstantDecisionResponseCompanion, CapturmobileInstantDecisionResponse, CapturmobileInstantDecisionResponseDataCompanion, CapturmobileResponseCompanion, CapturmobileCapturNetworkManagerCompanion, CapturmobileKtor_client_coreHttpResponse, CapturmobileNetworkEnvironmentFactory, CapturmobileNetworkingErrorInternalCompanion, CapturmobileNetworkingErrorInternal, CapturmobileMethod, CapturmobileMethodDELETEMethod, CapturmobileMethodGETMethod, CapturmobileMethodPATCHMethod, CapturmobileMethodPOSTMethod, CapturmobileMethodPUTMethod, CapturmobileRequestTypeDELETE, CapturmobileRequestTypeGET, CapturmobileRequestTypePATCH, CapturmobileRequestTypePUT, CapturmobileRequestVersion, CapturmobileRequestVersionNONE, CapturmobileRequestVersionV1, CapturmobileRequestVersionV2, CapturmobileCapturCoroutineContextProvider, NSData, CapturmobileKotlinRuntimeException, CapturmobileKotlinIllegalStateException, CapturmobileKotlinByteIterator, CapturmobileKtor_client_coreHttpClientEngineConfig, CapturmobileKtor_client_coreHttpClientConfig<T>, CapturmobileKtor_eventsEvents, CapturmobileKtor_client_coreHttpReceivePipeline, CapturmobileKtor_client_coreHttpRequestPipeline, CapturmobileKtor_client_coreHttpResponsePipeline, CapturmobileKtor_client_coreHttpSendPipeline, CapturmobileKotlinx_serialization_coreSerializersModule, CapturmobileKotlinx_serialization_jsonJsonDefault, CapturmobileKotlinx_serialization_jsonJsonElement, CapturmobileKotlinx_serialization_jsonJsonConfiguration, CapturmobileKtor_client_coreHttpClientCall, CapturmobileKtor_utilsGMTDate, CapturmobileKtor_httpHttpStatusCode, CapturmobileKtor_httpHttpProtocolVersion, CapturmobileKotlinx_serialization_coreSerialKind, CapturmobileKotlinNothing, CapturmobileKtor_client_coreHttpRequestData, CapturmobileKtor_client_coreHttpResponseData, CapturmobileKotlinx_coroutines_coreCoroutineDispatcher, CapturmobileKtor_client_coreProxyConfig, CapturmobileKtor_utilsAttributeKey<T>, CapturmobileKtor_eventsEventDefinition<T>, CapturmobileKtor_utilsPipelinePhase, CapturmobileKtor_utilsPipeline<TSubject, TContext>, CapturmobileKtor_client_coreHttpReceivePipelinePhases, CapturmobileKotlinUnit, CapturmobileKtor_client_coreHttpRequestPipelinePhases, CapturmobileKtor_client_coreHttpRequestBuilder, CapturmobileKtor_client_coreHttpResponsePipelinePhases, CapturmobileKtor_client_coreHttpResponseContainer, CapturmobileKtor_client_coreHttpSendPipelinePhases, CapturmobileKotlinx_serialization_jsonJsonElementCompanion, CapturmobileKtor_client_coreHttpClientCallCompanion, CapturmobileKtor_utilsTypeInfo, CapturmobileKtor_ioMemory, CapturmobileKtor_ioChunkBuffer, CapturmobileKtor_ioBuffer, CapturmobileKtor_ioByteReadPacket, CapturmobileKtor_utilsGMTDateCompanion, CapturmobileKtor_utilsWeekDay, CapturmobileKtor_utilsMonth, CapturmobileKtor_httpHttpStatusCodeCompanion, CapturmobileKtor_httpHttpProtocolVersionCompanion, CapturmobileKtor_httpUrl, CapturmobileKtor_httpHttpMethod, CapturmobileKtor_httpOutgoingContent, CapturmobileKotlinAbstractCoroutineContextElement, CapturmobileKotlinx_coroutines_coreCoroutineDispatcherKey, CapturmobileKtor_httpHeadersBuilder, CapturmobileKtor_client_coreHttpRequestBuilderCompanion, CapturmobileKtor_httpURLBuilder, CapturmobileKtor_ioMemoryCompanion, CapturmobileKtor_ioBufferCompanion, CapturmobileKtor_ioChunkBufferCompanion, CapturmobileKtor_ioInputCompanion, CapturmobileKtor_ioInput, CapturmobileKtor_ioByteReadPacketCompanion, CapturmobileKtor_utilsWeekDayCompanion, CapturmobileKtor_utilsMonthCompanion, CapturmobileKtor_httpUrlCompanion, CapturmobileKtor_httpURLProtocol, CapturmobileKtor_httpHttpMethodCompanion, CapturmobileKtor_httpContentType, CapturmobileKotlinCancellationException, CapturmobileKotlinAbstractCoroutineContextKey<B, E>, CapturmobileKtor_utilsStringValuesBuilderImpl, CapturmobileKtor_httpURLBuilderCompanion, CapturmobileKotlinKTypeProjection, CapturmobileKtor_httpURLProtocolCompanion, CapturmobileKtor_httpHeaderValueParam, CapturmobileKtor_httpHeaderValueWithParametersCompanion, CapturmobileKtor_httpHeaderValueWithParameters, CapturmobileKtor_httpContentTypeCompanion, CapturmobileKotlinKVariance, CapturmobileKotlinKTypeProjectionCompanion, CapturmobileKotlinx_coroutines_coreAtomicDesc, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, CapturmobileKotlinx_coroutines_coreAtomicOp<__contravariant T>, CapturmobileKotlinx_coroutines_coreOpDescriptor, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class CapturmobileVerifyImageUIState, CapturmobileCapturError, CapturmobileVerifyImageUIStateError, CapturmobileVerifyImageUIStateFailure, CapturmobileVerifyImageUIStateInitial, CapturmobileVerifyImageUIStatePending, CapturmobileVerifyImageUIStateSuccess, CapturmobileVerifyImageRemotely, CapturmobileResponse<T>, CapturmobileCaptur, CapturmobileVerifyImageUseCase, CapturmobileVerifyImageLocallyUseCase, CapturmobileVerifyImageRemotelyUseCase, CapturmobileVerifyImageViewModel, CapturmobileCapturAnalyticsConfiguration, CapturmobileCapturApiConfiguration, CapturmobileCapturAuxiliaryConfiguration, CapturmobileCapturLoggerConfiguration, CapturmobileCapturLoggerLevel, CapturmobileKotlinEnumCompanion, CapturmobileKotlinEnum<E>, CapturmobileKotlinArray<T>, CapturmobileImageVerifierProxy, CapturmobileLocationCompanion, CapturmobileLocation, CapturmobileKotlinByteArray, CapturmobileCompressionResult, CapturmobileImageVerifierOutput, CapturmobileImageVerifierInputImage, UIImage, CapturmobileRecordType, CapturmobileImageVerifierInputImageType, CapturmobileVerifyImage, CapturmobileVerifyImageLocally, CapturmobileAnalyticalConfig, CapturmobileAnalyticsEventInitialised, CapturmobileAnalyticsEventPhotoQualityAnalysed, CapturmobileAnalyticsEventPhotoSubmitted, CapturmobileAnalyticsEventPhotoTaken, CapturmobileAnalyticsEventPhotoVerificationBypassed, CapturmobileAnalyticsManagerCompanion, CapturmobileEvent, CapturmobilePayloaderCompanion, CapturmobilePayloaderBuilderCompanion, CapturmobilePayloaderBuilder, CapturmobilePayloader, CapturmobileCapturErrorFailedToCompressImage, CapturmobileCapturErrorGeneralError, CapturmobileCapturErrorImageValidationFailed, CapturmobileCapturErrorImageValidationFailedLocally, CapturmobileCapturErrorImageValidationFailedRemotely, CapturmobileCapturErrorNetworkingIssue, CapturmobileKotlinThrowable, CapturmobileKotlinException, CapturmobileKtor_client_coreHttpClient, CapturmobileKotlinx_serialization_jsonJson, CapturmobileInstantDecisionResponseData, CapturmobileInstantDecisionResponseCompanion, CapturmobileInstantDecisionResponse, CapturmobileInstantDecisionResponseDataCompanion, CapturmobileResponseCompanion, CapturmobileNetworkEnvironmentFactory, CapturmobileNetworkingErrorInternalCompanion, CapturmobileNetworkingErrorInternal, NSData, CapturmobileKotlinByteIterator, CapturmobileKotlinRuntimeException, CapturmobileKotlinIllegalStateException, CapturmobileKtor_client_coreHttpClientEngineConfig, CapturmobileKtor_client_coreHttpClientConfig<T>, CapturmobileKtor_eventsEvents, CapturmobileKtor_client_coreHttpReceivePipeline, CapturmobileKtor_client_coreHttpRequestPipeline, CapturmobileKtor_client_coreHttpResponsePipeline, CapturmobileKtor_client_coreHttpSendPipeline, CapturmobileKotlinx_serialization_coreSerializersModule, CapturmobileKotlinx_serialization_jsonJsonDefault, CapturmobileKotlinx_serialization_jsonJsonElement, CapturmobileKotlinx_serialization_jsonJsonConfiguration, CapturmobileKotlinx_serialization_coreSerialKind, CapturmobileKotlinNothing, CapturmobileKtor_client_coreHttpRequestData, CapturmobileKtor_client_coreHttpResponseData, CapturmobileKotlinx_coroutines_coreCoroutineDispatcher, CapturmobileKtor_client_coreProxyConfig, CapturmobileKtor_utilsAttributeKey<T>, CapturmobileKtor_eventsEventDefinition<T>, CapturmobileKtor_utilsPipelinePhase, CapturmobileKtor_utilsPipeline<TSubject, TContext>, CapturmobileKtor_client_coreHttpReceivePipelinePhases, CapturmobileKtor_client_coreHttpResponse, CapturmobileKotlinUnit, CapturmobileKtor_client_coreHttpRequestPipelinePhases, CapturmobileKtor_client_coreHttpRequestBuilder, CapturmobileKtor_client_coreHttpResponsePipelinePhases, CapturmobileKtor_client_coreHttpResponseContainer, CapturmobileKtor_client_coreHttpClientCall, CapturmobileKtor_client_coreHttpSendPipelinePhases, CapturmobileKotlinx_serialization_jsonJsonElementCompanion, CapturmobileKtor_httpUrl, CapturmobileKtor_httpHttpMethod, CapturmobileKtor_httpOutgoingContent, CapturmobileKtor_httpHttpStatusCode, CapturmobileKtor_utilsGMTDate, CapturmobileKtor_httpHttpProtocolVersion, CapturmobileKotlinAbstractCoroutineContextElement, CapturmobileKotlinx_coroutines_coreCoroutineDispatcherKey, CapturmobileKtor_httpHeadersBuilder, CapturmobileKtor_client_coreHttpRequestBuilderCompanion, CapturmobileKtor_httpURLBuilder, CapturmobileKtor_utilsTypeInfo, CapturmobileKtor_client_coreHttpClientCallCompanion, CapturmobileKtor_httpUrlCompanion, CapturmobileKtor_httpURLProtocol, CapturmobileKtor_httpHttpMethodCompanion, CapturmobileKtor_httpContentType, CapturmobileKotlinCancellationException, CapturmobileKtor_httpHttpStatusCodeCompanion, CapturmobileKtor_utilsGMTDateCompanion, CapturmobileKtor_utilsWeekDay, CapturmobileKtor_utilsMonth, CapturmobileKtor_httpHttpProtocolVersionCompanion, CapturmobileKotlinAbstractCoroutineContextKey<B, E>, CapturmobileKtor_ioMemory, CapturmobileKtor_ioChunkBuffer, CapturmobileKtor_ioBuffer, CapturmobileKtor_ioByteReadPacket, CapturmobileKtor_utilsStringValuesBuilderImpl, CapturmobileKtor_httpURLBuilderCompanion, CapturmobileKtor_httpURLProtocolCompanion, CapturmobileKtor_httpHeaderValueParam, CapturmobileKtor_httpHeaderValueWithParametersCompanion, CapturmobileKtor_httpHeaderValueWithParameters, CapturmobileKtor_httpContentTypeCompanion, CapturmobileKtor_utilsWeekDayCompanion, CapturmobileKtor_utilsMonthCompanion, CapturmobileKtor_ioMemoryCompanion, CapturmobileKtor_ioBufferCompanion, CapturmobileKtor_ioChunkBufferCompanion, CapturmobileKtor_ioInputCompanion, CapturmobileKtor_ioInput, CapturmobileKtor_ioByteReadPacketCompanion, CapturmobileKotlinKTypeProjection, CapturmobileKotlinx_coroutines_coreAtomicDesc, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, CapturmobileKotlinKVariance, CapturmobileKotlinKTypeProjectionCompanion, CapturmobileKotlinx_coroutines_coreAtomicOp<__contravariant T>, CapturmobileKotlinx_coroutines_coreOpDescriptor, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol CapturmobilePlatform, CapturmobileUseCase, CapturmobileImageVerifierInput, CapturmobileKotlinx_coroutines_coreStateFlow, CapturmobileCapturConfiguration, CapturmobileAnalyticsProvider, CapturmobileKotlinComparable, CapturmobileImageVerifier, CapturmobileKotlinCoroutineContext, CapturmobileCoroutineContextProvider, CapturmobileInteractor, CapturmobileNetworkManager, CapturmobileBaseDataModel, CapturmobileKotlinx_serialization_coreKSerializer, CapturmobileRequest, CapturmobileSerializableRequest, CapturmobileAnalytics, CapturmobileImageCompressor, CapturmobileKotlinSuspendFunction1, CapturmobileKtor_httpHeaders, CapturmobilePoller, CapturmobileKotlinx_coroutines_coreFlowCollector, CapturmobileKotlinx_coroutines_coreFlow, CapturmobileKotlinx_coroutines_coreSharedFlow, CapturmobileKotlinIterator, CapturmobileKotlinCoroutineContextElement, CapturmobileKotlinCoroutineContextKey, CapturmobileKotlinx_serialization_coreEncoder, CapturmobileKotlinx_serialization_coreSerialDescriptor, CapturmobileKotlinx_serialization_coreSerializationStrategy, CapturmobileKotlinx_serialization_coreDecoder, CapturmobileKotlinx_serialization_coreDeserializationStrategy, CapturmobileKotlinx_coroutines_coreCoroutineScope, CapturmobileKtor_ioCloseable, CapturmobileKtor_client_coreHttpClientEngine, CapturmobileKtor_client_coreHttpClientEngineCapability, CapturmobileKtor_utilsAttributes, CapturmobileKotlinx_serialization_coreSerialFormat, CapturmobileKotlinx_serialization_coreStringFormat, CapturmobileKotlinFunction, CapturmobileKotlinMapEntry, CapturmobileKtor_utilsStringValues, CapturmobileKtor_httpHttpMessage, CapturmobileKtor_ioByteReadChannel, CapturmobileKotlinx_serialization_coreCompositeEncoder, CapturmobileKotlinAnnotation, CapturmobileKotlinx_serialization_coreCompositeDecoder, CapturmobileKtor_client_coreHttpClientPlugin, CapturmobileKotlinx_coroutines_coreDisposableHandle, CapturmobileKotlinSuspendFunction2, CapturmobileKotlinx_serialization_coreSerializersModuleCollector, CapturmobileKotlinKClass, CapturmobileKtor_client_coreHttpRequest, CapturmobileKtor_ioReadSession, CapturmobileKotlinAppendable, CapturmobileKotlinx_coroutines_coreJob, CapturmobileKotlinContinuation, CapturmobileKotlinContinuationInterceptor, CapturmobileKotlinx_coroutines_coreRunnable, CapturmobileKtor_httpHttpMessageBuilder, CapturmobileKotlinKDeclarationContainer, CapturmobileKotlinKAnnotatedElement, CapturmobileKotlinKClassifier, CapturmobileKotlinKType, CapturmobileKtor_ioObjectPool, CapturmobileKtor_httpParameters, CapturmobileKotlinx_coroutines_coreChildHandle, CapturmobileKotlinx_coroutines_coreChildJob, CapturmobileKotlinSequence, CapturmobileKotlinx_coroutines_coreSelectClause0, CapturmobileKtor_utilsStringValuesBuilder, CapturmobileKtor_httpParametersBuilder, CapturmobileKotlinx_coroutines_coreParentJob, CapturmobileKotlinx_coroutines_coreSelectInstance, CapturmobileKotlinSuspendFunction0;
+@protocol CapturmobilePlatform, CapturmobileUseCase, CapturmobileImageVerifierInput, CapturmobileKotlinx_coroutines_coreCoroutineScope, CapturmobileKotlinx_coroutines_coreStateFlow, CapturmobileCapturConfiguration, CapturmobileAnalyticsProvider, CapturmobileKotlinComparable, CapturmobileImageVerifier, CapturmobileBaseDataModel, CapturmobileKotlinx_serialization_coreKSerializer, CapturmobileAnalyticsEvent, CapturmobileKotlinSuspendFunction1, CapturmobileKotlinCoroutineContext, CapturmobileKotlinx_coroutines_coreCoroutineExceptionHandler, CapturmobileKotlinx_coroutines_coreFlowCollector, CapturmobileKotlinx_coroutines_coreFlow, CapturmobileKotlinx_coroutines_coreSharedFlow, CapturmobileKotlinIterator, CapturmobileKotlinx_serialization_coreEncoder, CapturmobileKotlinx_serialization_coreSerialDescriptor, CapturmobileKotlinx_serialization_coreSerializationStrategy, CapturmobileKotlinx_serialization_coreDecoder, CapturmobileKotlinx_serialization_coreDeserializationStrategy, CapturmobileKtor_ioCloseable, CapturmobileKtor_client_coreHttpClientEngine, CapturmobileKtor_client_coreHttpClientEngineCapability, CapturmobileKtor_utilsAttributes, CapturmobileKotlinx_serialization_coreSerialFormat, CapturmobileKotlinx_serialization_coreStringFormat, CapturmobileKotlinFunction, CapturmobileKotlinCoroutineContextElement, CapturmobileKotlinCoroutineContextKey, CapturmobileKotlinx_serialization_coreCompositeEncoder, CapturmobileKotlinAnnotation, CapturmobileKotlinx_serialization_coreCompositeDecoder, CapturmobileKtor_client_coreHttpClientPlugin, CapturmobileKotlinx_coroutines_coreDisposableHandle, CapturmobileKotlinSuspendFunction2, CapturmobileKotlinx_serialization_coreSerializersModuleCollector, CapturmobileKotlinKClass, CapturmobileKtor_httpHeaders, CapturmobileKotlinx_coroutines_coreJob, CapturmobileKotlinContinuation, CapturmobileKotlinContinuationInterceptor, CapturmobileKotlinx_coroutines_coreRunnable, CapturmobileKtor_httpHttpMessage, CapturmobileKtor_ioByteReadChannel, CapturmobileKtor_httpHttpMessageBuilder, CapturmobileKtor_client_coreHttpRequest, CapturmobileKotlinKDeclarationContainer, CapturmobileKotlinKAnnotatedElement, CapturmobileKotlinKClassifier, CapturmobileKtor_httpParameters, CapturmobileKotlinMapEntry, CapturmobileKtor_utilsStringValues, CapturmobileKotlinx_coroutines_coreChildHandle, CapturmobileKotlinx_coroutines_coreChildJob, CapturmobileKotlinSequence, CapturmobileKotlinx_coroutines_coreSelectClause0, CapturmobileKtor_ioReadSession, CapturmobileKotlinAppendable, CapturmobileKtor_utilsStringValuesBuilder, CapturmobileKtor_httpParametersBuilder, CapturmobileKotlinKType, CapturmobileKotlinx_coroutines_coreParentJob, CapturmobileKotlinx_coroutines_coreSelectInstance, CapturmobileKotlinSuspendFunction0, CapturmobileKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -228,7 +228,9 @@ __attribute__((swift_name("VerifyImageViewModel")))
 @interface CapturmobileVerifyImageViewModel : CapturmobileBase
 - (instancetype)initWithUsecase:(id<CapturmobileUseCase>)usecase useCaseRemote:(id<CapturmobileUseCase>)useCaseRemote __attribute__((swift_name("init(usecase:useCaseRemote:)"))) __attribute__((objc_designated_initializer));
 - (void)sendImageWithNoteInput:(id<CapturmobileImageVerifierInput>)input resp:(void (^)(CapturmobileResponse<CapturmobileVerifyImageRemotely *> *))resp __attribute__((swift_name("sendImageWithNote(input:resp:)")));
+- (void)sendImageWithNoteInput:(id<CapturmobileImageVerifierInput>)input scope:(id<CapturmobileKotlinx_coroutines_coreCoroutineScope>)scope resp:(void (^)(CapturmobileResponse<CapturmobileVerifyImageRemotely *> *))resp __attribute__((swift_name("sendImageWithNote(input:scope:resp:)")));
 - (void)verifyImageInput:(id<CapturmobileImageVerifierInput>)input __attribute__((swift_name("verifyImage(input:)")));
+- (void)verifyImageInput:(id<CapturmobileImageVerifierInput>)input scope:(id<CapturmobileKotlinx_coroutines_coreCoroutineScope>)scope __attribute__((swift_name("verifyImage(input:scope:)")));
 @property (readonly) id<CapturmobileKotlinx_coroutines_coreStateFlow> uiState __attribute__((swift_name("uiState")));
 @end
 
@@ -348,245 +350,9 @@ __attribute__((swift_name("ImageVerifierProxy")))
 - (void)setImageVerifierImageVerifier:(id<CapturmobileImageVerifier> _Nullable)imageVerifier __attribute__((swift_name("setImageVerifier(imageVerifier:)")));
 @end
 
-__attribute__((swift_name("CoroutineContextProvider")))
-@protocol CapturmobileCoroutineContextProvider
-@required
-- (id<CapturmobileKotlinCoroutineContext>)context __attribute__((swift_name("context()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CapturCoroutineContextProvider")))
-@interface CapturmobileCapturCoroutineContextProvider : CapturmobileBase <CapturmobileCoroutineContextProvider>
-- (instancetype)initWithCoroutineContext:(id<CapturmobileKotlinCoroutineContext>)coroutineContext __attribute__((swift_name("init(coroutineContext:)"))) __attribute__((objc_designated_initializer));
-- (id<CapturmobileKotlinCoroutineContext>)context __attribute__((swift_name("context()")));
-@end
-
-__attribute__((swift_name("Interactor")))
-@protocol CapturmobileInteractor
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)executeWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("execute(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)makeRequestWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("makeRequest(completionHandler:)")));
-@end
-
-__attribute__((swift_name("BaseInteractor")))
-@interface CapturmobileBaseInteractor : CapturmobileBase <CapturmobileInteractor>
-- (instancetype)initWithNetworkManager:(id<CapturmobileNetworkManager>)networkManager __attribute__((swift_name("init(networkManager:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)executeWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("execute(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)makeRequestWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("makeRequest(completionHandler:)")));
-@property (readonly) id<CapturmobileNetworkManager> networkManager __attribute__((swift_name("networkManager")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadInteractor")))
-@interface CapturmobileInstantDecisionUploadInteractor : CapturmobileBaseInteractor
-- (instancetype)initWithWorkspaceID:(NSString *)workspaceID request:(CapturmobileInstantDecisionUploadRequestBody *)request onResponse:(void (^)(CapturmobileResponse<CapturmobileInstantDecisionUploadResponse *> *))onResponse __attribute__((swift_name("init(workspaceID:request:onResponse:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNetworkManager:(id<CapturmobileNetworkManager>)networkManager __attribute__((swift_name("init(networkManager:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)executeWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("execute(completionHandler:)")));
-@end
-
 __attribute__((swift_name("BaseDataModel")))
 @protocol CapturmobileBaseDataModel
 @required
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadPayload")))
-@interface CapturmobileInstantDecisionUploadPayload : CapturmobileBase <CapturmobileBaseDataModel>
-- (instancetype)initWithFilename:(NSString *)filename reference:(NSString *)reference recordType:(NSString *)recordType location:(CapturmobileLocation *)location notes:(NSString *)notes metadata:(NSString *)metadata __attribute__((swift_name("init(filename:reference:recordType:location:notes:metadata:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileInstantDecisionUploadPayloadCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileLocation *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileInstantDecisionUploadPayload *)doCopyFilename:(NSString *)filename reference:(NSString *)reference recordType:(NSString *)recordType location:(CapturmobileLocation *)location notes:(NSString *)notes metadata:(NSString *)metadata __attribute__((swift_name("doCopy(filename:reference:recordType:location:notes:metadata:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *filename __attribute__((swift_name("filename")));
-@property (readonly) CapturmobileLocation *location __attribute__((swift_name("location")));
-@property (readonly) NSString *metadata __attribute__((swift_name("metadata")));
-@property (readonly) NSString *notes __attribute__((swift_name("notes")));
-@property (readonly) NSString *recordType __attribute__((swift_name("recordType")));
-@property (readonly) NSString *reference __attribute__((swift_name("reference")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadPayload.Companion")))
-@interface CapturmobileInstantDecisionUploadPayloadCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileInstantDecisionUploadPayloadCompanion *shared __attribute__((swift_name("shared")));
-- (id<CapturmobileKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("Request")))
-@protocol CapturmobileRequest
-@required
-- (NSString *)getFullRequestUrl __attribute__((swift_name("getFullRequestUrl()")));
-@property (readonly) NSString *baseUrl __attribute__((swift_name("baseUrl")));
-@property (readonly) NSString * _Nullable body __attribute__((swift_name("body")));
-@property (readonly) NSDictionary<NSString *, NSString *> *headers __attribute__((swift_name("headers")));
-@property (readonly) NSString *path __attribute__((swift_name("path")));
-@property (readonly) CapturmobileRequestType *type __attribute__((swift_name("type")));
-@property (readonly) NSString *version __attribute__((swift_name("version")));
-@end
-
-__attribute__((swift_name("SerializableRequest")))
-@protocol CapturmobileSerializableRequest <CapturmobileRequest>
-@required
-@property (readonly) id<CapturmobileKotlinx_serialization_coreKSerializer> returnTypeSerializer __attribute__((swift_name("returnTypeSerializer")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadRequest")))
-@interface CapturmobileInstantDecisionUploadRequest : CapturmobileBase <CapturmobileSerializableRequest>
-- (instancetype)initWithRequestBody:(CapturmobileInstantDecisionUploadRequestBody *)requestBody headers:(NSDictionary<NSString *, NSString *> *)headers __attribute__((swift_name("init(requestBody:headers:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *baseUrl __attribute__((swift_name("baseUrl")));
-@property (readonly) NSString *body __attribute__((swift_name("body")));
-@property (readonly) NSDictionary<NSString *, NSString *> *headers __attribute__((swift_name("headers")));
-@property (readonly) NSString *path __attribute__((swift_name("path")));
-@property (readonly) id<CapturmobileKotlinx_serialization_coreKSerializer> returnTypeSerializer __attribute__((swift_name("returnTypeSerializer")));
-@property (readonly) CapturmobileRequestTypePOST *type __attribute__((swift_name("type")));
-@property (readonly) NSString *version __attribute__((swift_name("version")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadRequestBody")))
-@interface CapturmobileInstantDecisionUploadRequestBody : CapturmobileBase <CapturmobileBaseDataModel>
-- (instancetype)initWithPhoto:(NSString *)photo reference:(NSString *)reference recordType:(NSString *)recordType locationName:(NSString *)locationName location:(CapturmobileLocation * _Nullable)location notes:(NSString * _Nullable)notes assetType:(NSString * _Nullable)assetType metadata:(NSString * _Nullable)metadata __attribute__((swift_name("init(photo:reference:recordType:locationName:location:notes:assetType:metadata:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileInstantDecisionUploadRequestBodyCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileLocation * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileInstantDecisionUploadRequestBody *)doCopyPhoto:(NSString *)photo reference:(NSString *)reference recordType:(NSString *)recordType locationName:(NSString *)locationName location:(CapturmobileLocation * _Nullable)location notes:(NSString * _Nullable)notes assetType:(NSString * _Nullable)assetType metadata:(NSString * _Nullable)metadata __attribute__((swift_name("doCopy(photo:reference:recordType:locationName:location:notes:assetType:metadata:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable assetType __attribute__((swift_name("assetType")));
-@property (readonly) CapturmobileLocation * _Nullable location __attribute__((swift_name("location")));
-@property (readonly) NSString *locationName __attribute__((swift_name("locationName")));
-@property (readonly) NSString * _Nullable metadata __attribute__((swift_name("metadata")));
-@property (readonly) NSString * _Nullable notes __attribute__((swift_name("notes")));
-@property (readonly) NSString *photo __attribute__((swift_name("photo")));
-@property (readonly) NSString *recordType __attribute__((swift_name("recordType")));
-@property (readonly) NSString *reference __attribute__((swift_name("reference")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadRequestBody.Companion")))
-@interface CapturmobileInstantDecisionUploadRequestBodyCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileInstantDecisionUploadRequestBodyCompanion *shared __attribute__((swift_name("shared")));
-- (id<CapturmobileKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadResponse")))
-@interface CapturmobileInstantDecisionUploadResponse : CapturmobileBase <CapturmobileBaseDataModel>
-- (instancetype)initWithData:(CapturmobileInstantDecisionUploadResponseData *)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileInstantDecisionUploadResponseCompanion *companion __attribute__((swift_name("companion")));
-- (CapturmobileInstantDecisionUploadResponseData *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileInstantDecisionUploadResponse *)doCopyData:(CapturmobileInstantDecisionUploadResponseData *)data __attribute__((swift_name("doCopy(data:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileInstantDecisionUploadResponseData *data __attribute__((swift_name("data")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadResponse.Companion")))
-@interface CapturmobileInstantDecisionUploadResponseCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileInstantDecisionUploadResponseCompanion *shared __attribute__((swift_name("shared")));
-- (id<CapturmobileKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadResponseData")))
-@interface CapturmobileInstantDecisionUploadResponseData : CapturmobileBase <CapturmobileBaseDataModel>
-- (instancetype)initWithReference:(NSString *)reference decision:(NSString *)decision recordId:(NSString *)recordId mediaId:(NSString *)mediaId payload:(CapturmobileInstantDecisionUploadPayload *)payload __attribute__((swift_name("init(reference:decision:recordId:mediaId:payload:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileInstantDecisionUploadResponseDataCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileInstantDecisionUploadPayload *)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileInstantDecisionUploadResponseData *)doCopyReference:(NSString *)reference decision:(NSString *)decision recordId:(NSString *)recordId mediaId:(NSString *)mediaId payload:(CapturmobileInstantDecisionUploadPayload *)payload __attribute__((swift_name("doCopy(reference:decision:recordId:mediaId:payload:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *decision __attribute__((swift_name("decision")));
-@property (readonly) NSString *mediaId __attribute__((swift_name("mediaId")));
-@property (readonly) CapturmobileInstantDecisionUploadPayload *payload __attribute__((swift_name("payload")));
-@property (readonly) NSString *recordId __attribute__((swift_name("recordId")));
-@property (readonly) NSString *reference __attribute__((swift_name("reference")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InstantDecisionUploadResponseData.Companion")))
-@interface CapturmobileInstantDecisionUploadResponseDataCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileInstantDecisionUploadResponseDataCompanion *shared __attribute__((swift_name("shared")));
-- (id<CapturmobileKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 
@@ -735,7 +501,6 @@ __attribute__((swift_name("UseCase")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)executeInput:(id _Nullable)input completionHandler:(void (^)(CapturmobileResponse<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(input:completionHandler:)")));
-- (void)executeInput:(id _Nullable)input response:(void (^)(CapturmobileResponse<id> *))response __attribute__((swift_name("execute(input:response:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -776,8 +541,6 @@ __attribute__((swift_name("VerifyImageLocallyUseCase")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)executeInput:(id<CapturmobileImageVerifierInput>)input completionHandler:(void (^)(CapturmobileResponse<CapturmobileVerifyImageLocally *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(input:completionHandler:)")));
-- (void)executeInput:(id<CapturmobileImageVerifierInput>)input response:(void (^)(CapturmobileResponse<CapturmobileVerifyImageLocally *> *))response __attribute__((swift_name("execute(input:response:)")));
-- (CapturmobileVerifyImageLocally *)mapOutputOutput:(CapturmobileImageVerifierOutput *)output __attribute__((swift_name("mapOutput(output:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -804,7 +567,6 @@ __attribute__((swift_name("VerifyImageRemotelyUseCase")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)executeInput:(id<CapturmobileImageVerifierInput>)input completionHandler:(void (^)(CapturmobileResponse<CapturmobileVerifyImageRemotely *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(input:completionHandler:)")));
-- (void)executeInput:(id<CapturmobileImageVerifierInput>)input response:(void (^)(CapturmobileResponse<CapturmobileVerifyImageRemotely *> *))response __attribute__((swift_name("execute(input:response:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -817,7 +579,6 @@ __attribute__((swift_name("VerifyImageUseCase")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)executeInput:(id<CapturmobileImageVerifierInput>)input completionHandler:(void (^)(CapturmobileResponse<CapturmobileVerifyImage *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(input:completionHandler:)")));
-- (void)executeInput:(id<CapturmobileImageVerifierInput>)input response:(void (^)(CapturmobileResponse<CapturmobileVerifyImage *> *))response __attribute__((swift_name("execute(input:response:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -830,31 +591,126 @@ __attribute__((swift_name("AnalyticalConfig")))
 @property (readonly) NSString *amplitudeKey __attribute__((swift_name("amplitudeKey")));
 @end
 
-__attribute__((swift_name("Analytics")))
-@protocol CapturmobileAnalytics
+__attribute__((swift_name("AnalyticsEvent")))
+@protocol CapturmobileAnalyticsEvent
 @required
-- (void)fireEventEvent:(CapturmobileEvent *)event __attribute__((swift_name("fireEvent(event:)")));
-- (void)fireEventEvent:(CapturmobileEvent *)event payload:(CapturmobilePayloader *)payload __attribute__((swift_name("fireEvent(event:payload:)")));
-- (void)initialise __attribute__((swift_name("initialise()")));
+- (NSDictionary<NSString *, id> *)getPayload __attribute__((swift_name("getPayload()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsEventInitialised")))
+@interface CapturmobileAnalyticsEventInitialised : CapturmobileBase <CapturmobileAnalyticsEvent>
+- (instancetype)initWithVersion:(NSString *)version device:(NSString *)device platform:(NSString *)platform __attribute__((swift_name("init(version:device:platform:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileAnalyticsEventInitialised *)doCopyVersion:(NSString *)version device:(NSString *)device platform:(NSString *)platform __attribute__((swift_name("doCopy(version:device:platform:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSDictionary<NSString *, NSString *> *)getPayload __attribute__((swift_name("getPayload()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *device __attribute__((swift_name("device")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *platform __attribute__((swift_name("platform")));
+@property (readonly) NSString *version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsEventPhotoQualityAnalysed")))
+@interface CapturmobileAnalyticsEventPhotoQualityAnalysed : CapturmobileBase <CapturmobileAnalyticsEvent>
+- (instancetype)initWithModelFingerprint:(NSString *)modelFingerprint processingTimeMs:(int32_t)processingTimeMs classification:(NSString *)classification __attribute__((swift_name("init(modelFingerprint:processingTimeMs:classification:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileAnalyticsEventPhotoQualityAnalysed *)doCopyModelFingerprint:(NSString *)modelFingerprint processingTimeMs:(int32_t)processingTimeMs classification:(NSString *)classification __attribute__((swift_name("doCopy(modelFingerprint:processingTimeMs:classification:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSDictionary<NSString *, id> *)getPayload __attribute__((swift_name("getPayload()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *classification __attribute__((swift_name("classification")));
+@property (readonly) NSString *modelFingerprint __attribute__((swift_name("modelFingerprint")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t processingTimeMs __attribute__((swift_name("processingTimeMs")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsEventPhotoSubmitted")))
+@interface CapturmobileAnalyticsEventPhotoSubmitted : CapturmobileBase <CapturmobileAnalyticsEvent>
+- (instancetype)initWithPhotoReference:(NSString *)photoReference recordId:(NSString *)recordId decision:(NSString *)decision requestUrl:(NSString *)requestUrl __attribute__((swift_name("init(photoReference:recordId:decision:requestUrl:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileAnalyticsEventPhotoSubmitted *)doCopyPhotoReference:(NSString *)photoReference recordId:(NSString *)recordId decision:(NSString *)decision requestUrl:(NSString *)requestUrl __attribute__((swift_name("doCopy(photoReference:recordId:decision:requestUrl:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSDictionary<NSString *, NSString *> *)getPayload __attribute__((swift_name("getPayload()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *decision __attribute__((swift_name("decision")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *photoReference __attribute__((swift_name("photoReference")));
+@property (readonly) NSString *recordId __attribute__((swift_name("recordId")));
+@property (readonly) NSString *requestUrl __attribute__((swift_name("requestUrl")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsEventPhotoTaken")))
+@interface CapturmobileAnalyticsEventPhotoTaken : CapturmobileBase <CapturmobileAnalyticsEvent>
+- (instancetype)initWithPhotoReference:(NSString *)photoReference imageWidth:(int32_t)imageWidth imageHeight:(int32_t)imageHeight __attribute__((swift_name("init(photoReference:imageWidth:imageHeight:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileAnalyticsEventPhotoTaken *)doCopyPhotoReference:(NSString *)photoReference imageWidth:(int32_t)imageWidth imageHeight:(int32_t)imageHeight __attribute__((swift_name("doCopy(photoReference:imageWidth:imageHeight:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSDictionary<NSString *, id> *)getPayload __attribute__((swift_name("getPayload()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t imageHeight __attribute__((swift_name("imageHeight")));
+@property (readonly) int32_t imageWidth __attribute__((swift_name("imageWidth")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *photoReference __attribute__((swift_name("photoReference")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsEventPhotoVerificationBypassed")))
+@interface CapturmobileAnalyticsEventPhotoVerificationBypassed : CapturmobileBase <CapturmobileAnalyticsEvent>
+- (instancetype)initWithPhotoReference:(NSString *)photoReference notes:(NSString * _Nullable)notes __attribute__((swift_name("init(photoReference:notes:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileAnalyticsEventPhotoVerificationBypassed *)doCopyPhotoReference:(NSString *)photoReference notes:(NSString * _Nullable)notes __attribute__((swift_name("doCopy(photoReference:notes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSDictionary<NSString *, NSString *> *)getPayload __attribute__((swift_name("getPayload()")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString * _Nullable notes __attribute__((swift_name("notes")));
+@property (readonly) NSString *photoReference __attribute__((swift_name("photoReference")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AnalyticsManager")))
-@interface CapturmobileAnalyticsManager : CapturmobileBase <CapturmobileAnalytics>
+@interface CapturmobileAnalyticsManager : CapturmobileBase
+- (instancetype)initWithProviders:(NSArray<id<CapturmobileAnalyticsProvider>> *)providers __attribute__((swift_name("init(providers:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileAnalyticsManagerCompanion *companion __attribute__((swift_name("companion")));
+- (void)fireEventEvent:(id<CapturmobileAnalyticsEvent>)event __attribute__((swift_name("fireEvent(event:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsManager.Companion")))
+@interface CapturmobileAnalyticsManagerCompanion : CapturmobileBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)analyticsManager __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileAnalyticsManager *shared __attribute__((swift_name("shared")));
-- (void)fireEventEvent:(CapturmobileEvent *)event __attribute__((swift_name("fireEvent(event:)")));
-- (void)fireEventEvent:(CapturmobileEvent *)event payload:(CapturmobilePayloader *)payload __attribute__((swift_name("fireEvent(event:payload:)")));
-- (void)initialise __attribute__((swift_name("initialise()")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileAnalyticsManagerCompanion *shared __attribute__((swift_name("shared")));
+- (void)fireEventEvent:(id<CapturmobileAnalyticsEvent>)event __attribute__((swift_name("fireEvent(event:)")));
+- (void)initialiseProviders:(NSArray<id<CapturmobileAnalyticsProvider>> *)providers __attribute__((swift_name("initialise(providers:)")));
 @end
 
 __attribute__((swift_name("AnalyticsProvider")))
 @protocol CapturmobileAnalyticsProvider
 @required
-- (void)trackEventEvent:(NSString *)event __attribute__((swift_name("trackEvent(event:)")));
-- (void)trackEventEvent:(NSString *)event payload:(NSDictionary<NSString *, id> *)payload __attribute__((swift_name("trackEvent(event:payload:)")));
+- (void)trackEventEvent:(id<CapturmobileAnalyticsEvent>)event __attribute__((swift_name("trackEvent(event:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1048,19 +904,6 @@ __attribute__((swift_name("ImageVerifierNotSetException")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DefaultImageCompressor")))
-@interface CapturmobileDefaultImageCompressor : CapturmobileBase <CapturmobileImageCompressor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)compressImage:(CapturmobileKotlinByteArray *)image completionHandler:(void (^)(CapturmobileResponse<CapturmobileCompressionResult *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("compress(image:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("InstantDecisionImageVerifier")))
 @interface CapturmobileInstantDecisionImageVerifier : CapturmobileBase <CapturmobileImageVerifier>
 - (instancetype)initWithClient:(CapturmobileKtor_client_coreHttpClient *)client configuration:(CapturmobileCapturApiConfiguration *)configuration jsonParser:(CapturmobileKotlinx_serialization_jsonJson *)jsonParser __attribute__((swift_name("init(client:configuration:jsonParser:)"))) __attribute__((objc_designated_initializer));
@@ -1164,51 +1007,18 @@ __attribute__((swift_name("ResponseCompanion")))
 - (CapturmobileResponse<id> *)successValue:(id _Nullable)value __attribute__((swift_name("success(value:)")));
 @end
 
-__attribute__((swift_name("NetworkManager")))
-@protocol CapturmobileNetworkManager
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol CapturmobileKotlinx_coroutines_coreCoroutineScope
 @required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)networkRequestRequest:(id<CapturmobileSerializableRequest>)request completionHandler:(void (^)(id<CapturmobileBaseDataModel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("networkRequest(request:completionHandler:)")));
+@property (readonly) id<CapturmobileKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CapturNetworkManager")))
-@interface CapturmobileCapturNetworkManager : CapturmobileBase <CapturmobileNetworkManager>
-- (instancetype)initWithClient:(CapturmobileKtor_client_coreHttpClient *)client customHeaders:(id<CapturmobileKtor_httpHeaders> _Nullable)customHeaders __attribute__((swift_name("init(client:customHeaders:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileCapturNetworkManagerCompanion *companion __attribute__((swift_name("companion")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)networkRequestRequest:(id<CapturmobileSerializableRequest>)request completionHandler:(void (^)(id<CapturmobileBaseDataModel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("networkRequest(request:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CapturNetworkManager.Companion")))
-@interface CapturmobileCapturNetworkManagerCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileCapturNetworkManagerCompanion *shared __attribute__((swift_name("shared")));
-- (CapturmobileKotlinThrowable *)internalErrorCode:(int32_t)code message:(NSString *)message __attribute__((swift_name("internalError(code:message:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)internalErrorFromResponseResult:(CapturmobileKtor_client_coreHttpResponse *)result completionHandler:(void (^)(CapturmobileKotlinThrowable * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("internalErrorFromResponse(result:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NetworkEnvironment")))
-@interface CapturmobileNetworkEnvironment : CapturmobileBase
-- (instancetype)initWithHttpClient:(CapturmobileKtor_client_coreHttpClient *)httpClient __attribute__((swift_name("init(httpClient:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) CapturmobileKtor_client_coreHttpClient *httpClient __attribute__((swift_name("httpClient")));
+__attribute__((swift_name("MainCoroutineScope")))
+@interface CapturmobileMainCoroutineScope : CapturmobileBase <CapturmobileKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) id<CapturmobileKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1264,212 +1074,6 @@ __attribute__((swift_name("NetworkingErrorThrowable")))
 @property (readonly) CapturmobileNetworkingErrorInternal *networkingInternalError __attribute__((swift_name("networkingInternalError")));
 @end
 
-__attribute__((swift_name("Method")))
-@interface CapturmobileMethod : CapturmobileBase
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Method.DELETEMethod")))
-@interface CapturmobileMethodDELETEMethod : CapturmobileMethod
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileMethodDELETEMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Method.GETMethod")))
-@interface CapturmobileMethodGETMethod : CapturmobileMethod
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileMethodGETMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Method.PATCHMethod")))
-@interface CapturmobileMethodPATCHMethod : CapturmobileMethod
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileMethodPATCHMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Method.POSTMethod")))
-@interface CapturmobileMethodPOSTMethod : CapturmobileMethod
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileMethodPOSTMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Method.PUTMethod")))
-@interface CapturmobileMethodPUTMethod : CapturmobileMethod
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileMethodPUTMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("Poller")))
-@protocol CapturmobilePoller
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)pollDelay:(int64_t)delay limit:(int32_t)limit completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("poll(delay:limit:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)singleWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("single(completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestOptions")))
-@interface CapturmobileRequestOptions : CapturmobileBase <CapturmobilePoller>
-- (instancetype)initWithRequestInteractor:(CapturmobileBaseInteractor *)requestInteractor __attribute__((swift_name("init(requestInteractor:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)pollDelay:(int64_t)delay limit:(int32_t)limit completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("poll(delay:limit:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)singleWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("single(completionHandler:)")));
-@end
-
-__attribute__((swift_name("RequestType")))
-@interface CapturmobileRequestType : CapturmobileBase
-@property (readonly) CapturmobileMethod *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestType.DELETE")))
-@interface CapturmobileRequestTypeDELETE : CapturmobileRequestType
-- (instancetype)initWithValue:(CapturmobileMethod *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (CapturmobileMethod *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestTypeDELETE *)doCopyValue:(CapturmobileMethod *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileMethod *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestType.GET")))
-@interface CapturmobileRequestTypeGET : CapturmobileRequestType
-- (instancetype)initWithValue:(CapturmobileMethod *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (CapturmobileMethod *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestTypeGET *)doCopyValue:(CapturmobileMethod *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileMethod *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestType.PATCH")))
-@interface CapturmobileRequestTypePATCH : CapturmobileRequestType
-- (instancetype)initWithValue:(CapturmobileMethod *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (CapturmobileMethod *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestTypePATCH *)doCopyValue:(CapturmobileMethod *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileMethod *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestType.POST")))
-@interface CapturmobileRequestTypePOST : CapturmobileRequestType
-- (instancetype)initWithValue:(CapturmobileMethod *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (CapturmobileMethod *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestTypePOST *)doCopyValue:(CapturmobileMethod *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileMethod *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestType.PUT")))
-@interface CapturmobileRequestTypePUT : CapturmobileRequestType
-- (instancetype)initWithValue:(CapturmobileMethod *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (CapturmobileMethod *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestTypePUT *)doCopyValue:(CapturmobileMethod *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileMethod *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("RequestVersion")))
-@interface CapturmobileRequestVersion : CapturmobileBase
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestVersion.NONE")))
-@interface CapturmobileRequestVersionNONE : CapturmobileRequestVersion
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestVersionNONE *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestVersion.V1")))
-@interface CapturmobileRequestVersionV1 : CapturmobileRequestVersion
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestVersionV1 *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RequestVersion.V2")))
-@interface CapturmobileRequestVersionV2 : CapturmobileRequestVersion
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileRequestVersionV2 *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
 @interface CapturmobileImageVerifierInputImage (Extensions)
 - (NSString *)getContentType __attribute__((swift_name("getContentType()")));
 @end
@@ -1481,16 +1085,16 @@ __attribute__((swift_name("PlatformKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CapturScopeKt")))
-@interface CapturmobileCapturScopeKt : CapturmobileBase
-+ (CapturmobileCapturCoroutineContextProvider *)getDefaultContextProvider __attribute__((swift_name("getDefaultContextProvider()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ImageVerifierInputKt")))
 @interface CapturmobileImageVerifierInputKt : CapturmobileBase
 + (CapturmobileKotlinByteArray *)toByteArray:(NSData *)receiver __attribute__((swift_name("toByteArray(_:)")));
 + (CapturmobileKotlinByteArray *)toByteArray_:(UIImage *)receiver __attribute__((swift_name("toByteArray(__:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExceptionHandlerKt")))
+@interface CapturmobileExceptionHandlerKt : CapturmobileBase
++ (id<CapturmobileKotlinx_coroutines_coreCoroutineExceptionHandler>)exceptionHandlerResponse:(void (^ _Nullable)(CapturmobileResponse<id> *))response __attribute__((swift_name("exceptionHandler(response:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
@@ -1537,52 +1141,6 @@ __attribute__((swift_name("KotlinArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol CapturmobileKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<CapturmobileKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<CapturmobileKotlinCoroutineContextElement> _Nullable)getKey:(id<CapturmobileKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<CapturmobileKotlinCoroutineContext>)minusKeyKey:(id<CapturmobileKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<CapturmobileKotlinCoroutineContext>)plusContext:(id<CapturmobileKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end
-
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface CapturmobileKotlinRuntimeException : CapturmobileKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface CapturmobileKotlinIllegalStateException : CapturmobileKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface CapturmobileKotlinCancellationException : CapturmobileKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
 @protocol CapturmobileKotlinx_serialization_coreSerializationStrategy
 @required
@@ -1615,10 +1173,36 @@ __attribute__((swift_name("KotlinByteArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol CapturmobileKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<CapturmobileKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface CapturmobileKotlinRuntimeException : CapturmobileKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface CapturmobileKotlinIllegalStateException : CapturmobileKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.4")
+*/
+__attribute__((swift_name("KotlinCancellationException")))
+@interface CapturmobileKotlinCancellationException : CapturmobileKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((swift_name("Ktor_ioCloseable")))
@@ -1687,42 +1271,30 @@ __attribute__((swift_name("KotlinSuspendFunction1")))
 - (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
 @end
 
-__attribute__((swift_name("Ktor_utilsStringValues")))
-@protocol CapturmobileKtor_utilsStringValues
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol CapturmobileKotlinCoroutineContext
 @required
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<CapturmobileKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<CapturmobileKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<CapturmobileKotlinCoroutineContextElement> _Nullable)getKey:(id<CapturmobileKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<CapturmobileKotlinCoroutineContext>)minusKeyKey:(id<CapturmobileKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<CapturmobileKotlinCoroutineContext>)plusContext:(id<CapturmobileKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end
 
-__attribute__((swift_name("Ktor_httpHeaders")))
-@protocol CapturmobileKtor_httpHeaders <CapturmobileKtor_utilsStringValues>
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol CapturmobileKotlinCoroutineContextElement <CapturmobileKotlinCoroutineContext>
 @required
+@property (readonly) id<CapturmobileKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
 @end
 
-__attribute__((swift_name("Ktor_httpHttpMessage")))
-@protocol CapturmobileKtor_httpHttpMessage
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineExceptionHandler")))
+@protocol CapturmobileKotlinx_coroutines_coreCoroutineExceptionHandler <CapturmobileKotlinCoroutineContextElement>
 @required
-@property (readonly) id<CapturmobileKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpResponse")))
-@interface CapturmobileKtor_client_coreHttpResponse : CapturmobileBase <CapturmobileKtor_httpHttpMessage, CapturmobileKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
-@property (readonly) id<CapturmobileKtor_ioByteReadChannel> content __attribute__((swift_name("content")));
-@property (readonly) CapturmobileKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
-@property (readonly) CapturmobileKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
-@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+- (void)handleExceptionContext:(id<CapturmobileKotlinCoroutineContext>)context exception:(CapturmobileKotlinThrowable *)exception __attribute__((swift_name("handleException(context:exception:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
@@ -1741,17 +1313,6 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol CapturmobileKotlinCoroutineContextElement <CapturmobileKotlinCoroutineContext>
-@required
-@property (readonly) id<CapturmobileKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol CapturmobileKotlinCoroutineContextKey
-@required
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -1994,7 +1555,7 @@ __attribute__((swift_name("Ktor_utilsPipeline")))
 - (void)resetFromFrom:(CapturmobileKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("resetFrom(from:)")));
 @property (readonly) id<CapturmobileKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@property (readonly, getter=isEmpty_) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
 @property (readonly) NSArray<CapturmobileKtor_utilsPipelinePhase *> *items __attribute__((swift_name("items")));
 @end
 
@@ -2113,257 +1674,9 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 @property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
 @end
 
-__attribute__((swift_name("KotlinMapEntry")))
-@protocol CapturmobileKotlinMapEntry
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol CapturmobileKotlinCoroutineContextKey
 @required
-@property (readonly) id _Nullable key __attribute__((swift_name("key")));
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
-@interface CapturmobileKtor_client_coreHttpClientCall : CapturmobileBase <CapturmobileKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithClient:(CapturmobileKtor_client_coreHttpClient *)client requestData:(CapturmobileKtor_client_coreHttpRequestData *)requestData responseData:(CapturmobileKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithClient:(CapturmobileKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)bodyInfo:(CapturmobileKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)bodyNullableInfo:(CapturmobileKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("bodyNullable(info:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)getResponseContentWithCompletionHandler:(void (^)(id<CapturmobileKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
-@property (readonly) id<CapturmobileKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) CapturmobileKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
-@property (readonly) id<CapturmobileKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@property id<CapturmobileKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
-@property CapturmobileKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
-@end
-
-__attribute__((swift_name("Ktor_ioByteReadChannel")))
-@protocol CapturmobileKtor_ioByteReadChannel
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)awaitContentWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(completionHandler:)")));
-- (BOOL)cancelCause:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)discardMax:(int64_t)max completionHandler:(void (^)(CapturmobileLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("discard(max:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)peekToDestination:(CapturmobileKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max completionHandler:(void (^)(CapturmobileLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(CapturmobileKtor_ioChunkBuffer *)dst completionHandler:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(CapturmobileKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler:)")));
-- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(CapturmobileKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler_:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler__:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readBooleanWithCompletionHandler:(void (^)(CapturmobileBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readBoolean(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readByteWithCompletionHandler:(void (^)(CapturmobileByte * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readByte(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readDoubleWithCompletionHandler:(void (^)(CapturmobileDouble * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readDouble(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFloatWithCompletionHandler:(void (^)(CapturmobileFloat * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readFloat(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(CapturmobileKtor_ioChunkBuffer *)dst n:(int32_t)n completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:n:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(CapturmobileKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler_:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler__:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readIntWithCompletionHandler:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readInt(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readLongWithCompletionHandler:(void (^)(CapturmobileLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readLong(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readPacketSize:(int32_t)size completionHandler:(void (^)(CapturmobileKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readPacket(size:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readRemainingLimit:(int64_t)limit completionHandler:(void (^)(CapturmobileKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readRemaining(limit:completionHandler:)")));
-- (void)readSessionConsumer:(void (^)(id<CapturmobileKtor_ioReadSession>))consumer __attribute__((swift_name("readSession(consumer:)"))) __attribute__((deprecated("Use read { } instead.")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readShortWithCompletionHandler:(void (^)(CapturmobileShort * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readShort(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readSuspendableSessionConsumer:(id<CapturmobileKotlinSuspendFunction1>)consumer completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readSuspendableSession(consumer:completionHandler:)"))) __attribute__((deprecated("Use read { } instead.")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readUTF8LineLimit:(int32_t)limit completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8Line(limit:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readUTF8LineToOut:(id<CapturmobileKotlinAppendable>)out limit:(int32_t)limit completionHandler:(void (^)(CapturmobileBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8LineTo(out:limit:completionHandler:)")));
-@property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
-@property (readonly) CapturmobileKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
-@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
-@property (readonly) BOOL isClosedForWrite __attribute__((swift_name("isClosedForWrite")));
-@property (readonly) int64_t totalBytesRead __attribute__((swift_name("totalBytesRead")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsGMTDate")))
-@interface CapturmobileKtor_utilsGMTDate : CapturmobileBase <CapturmobileKotlinComparable>
-@property (class, readonly, getter=companion) CapturmobileKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(CapturmobileKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_utilsWeekDay *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_utilsMonth *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(CapturmobileKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(CapturmobileKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
-@property (readonly) CapturmobileKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
-@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
-@property (readonly) int32_t hours __attribute__((swift_name("hours")));
-@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
-@property (readonly) CapturmobileKtor_utilsMonth *month __attribute__((swift_name("month")));
-@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
-@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
-@property (readonly) int32_t year __attribute__((swift_name("year")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpStatusCode")))
-@interface CapturmobileKtor_httpHttpStatusCode : CapturmobileBase
-- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
-- (CapturmobileKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
-@property (readonly) int32_t value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
-@interface CapturmobileKtor_httpHttpProtocolVersion : CapturmobileBase
-- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t major __attribute__((swift_name("major")));
-@property (readonly) int32_t minor __attribute__((swift_name("minor")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
@@ -2590,6 +1903,25 @@ __attribute__((swift_name("Ktor_client_coreHttpReceivePipeline.Phases")))
 @property (readonly) CapturmobileKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
 @end
 
+__attribute__((swift_name("Ktor_httpHttpMessage")))
+@protocol CapturmobileKtor_httpHttpMessage
+@required
+@property (readonly) id<CapturmobileKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@end
+
+__attribute__((swift_name("Ktor_client_coreHttpResponse")))
+@interface CapturmobileKtor_client_coreHttpResponse : CapturmobileBase <CapturmobileKtor_httpHttpMessage, CapturmobileKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) CapturmobileKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) id<CapturmobileKtor_ioByteReadChannel> content __attribute__((swift_name("content")));
+@property (readonly) CapturmobileKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
+@property (readonly) CapturmobileKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
+@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinUnit")))
 @interface CapturmobileKotlinUnit : CapturmobileBase
@@ -2668,6 +2000,39 @@ __attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) CapturmobileKtor_utilsTypeInfo *expectedType __attribute__((swift_name("expectedType")));
 @property (readonly) id response __attribute__((swift_name("response")));
+@end
+
+__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
+@interface CapturmobileKtor_client_coreHttpClientCall : CapturmobileBase <CapturmobileKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithClient:(CapturmobileKtor_client_coreHttpClient *)client requestData:(CapturmobileKtor_client_coreHttpRequestData *)requestData responseData:(CapturmobileKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithClient:(CapturmobileKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyInfo:(CapturmobileKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyNullableInfo:(CapturmobileKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("bodyNullable(info:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)getResponseContentWithCompletionHandler:(void (^)(id<CapturmobileKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
+@property (readonly) id<CapturmobileKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) CapturmobileKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
+@property (readonly) id<CapturmobileKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property id<CapturmobileKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
+@property CapturmobileKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2754,13 +2119,460 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
-@interface CapturmobileKtor_client_coreHttpClientCallCompanion : CapturmobileBase
+__attribute__((swift_name("Ktor_httpUrl")))
+@interface CapturmobileKtor_httpUrl : CapturmobileBase
+@property (class, readonly, getter=companion) CapturmobileKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
+@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
+@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
+@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
+@property (readonly) NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<CapturmobileKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
+@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
+@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property (readonly) int32_t port __attribute__((swift_name("port")));
+@property (readonly) CapturmobileKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
+@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod")))
+@interface CapturmobileKtor_httpHttpMethod : CapturmobileBase
+- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((swift_name("Ktor_utilsStringValues")))
+@protocol CapturmobileKtor_utilsStringValues
+@required
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<CapturmobileKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end
+
+__attribute__((swift_name("Ktor_httpHeaders")))
+@protocol CapturmobileKtor_httpHeaders <CapturmobileKtor_utilsStringValues>
+@required
+@end
+
+__attribute__((swift_name("Ktor_httpOutgoingContent")))
+@interface CapturmobileKtor_httpOutgoingContent : CapturmobileBase
+- (id _Nullable)getPropertyKey:(CapturmobileKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
+- (void)setPropertyKey:(CapturmobileKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
+- (id<CapturmobileKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
+@property (readonly) CapturmobileLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
+@property (readonly) CapturmobileKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
+@property (readonly) id<CapturmobileKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol CapturmobileKotlinx_coroutines_coreJob <CapturmobileKotlinCoroutineContextElement>
+@required
+- (id<CapturmobileKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<CapturmobileKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(CapturmobileKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (CapturmobileKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<CapturmobileKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(CapturmobileKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<CapturmobileKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(CapturmobileKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<CapturmobileKotlinx_coroutines_coreJob>)plusOther_:(id<CapturmobileKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<CapturmobileKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<CapturmobileKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpStatusCode")))
+@interface CapturmobileKtor_httpHttpStatusCode : CapturmobileBase
+- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
+- (CapturmobileKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
+@property (readonly) int32_t value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsGMTDate")))
+@interface CapturmobileKtor_utilsGMTDate : CapturmobileBase <CapturmobileKotlinComparable>
+@property (class, readonly, getter=companion) CapturmobileKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(CapturmobileKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_utilsWeekDay *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_utilsMonth *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(CapturmobileKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(CapturmobileKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
+@property (readonly) CapturmobileKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
+@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
+@property (readonly) int32_t hours __attribute__((swift_name("hours")));
+@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
+@property (readonly) CapturmobileKtor_utilsMonth *month __attribute__((swift_name("month")));
+@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
+@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
+@property (readonly) int32_t year __attribute__((swift_name("year")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
+@interface CapturmobileKtor_httpHttpProtocolVersion : CapturmobileBase
+- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t major __attribute__((swift_name("major")));
+@property (readonly) int32_t minor __attribute__((swift_name("minor")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuation")))
+@protocol CapturmobileKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<CapturmobileKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface CapturmobileKotlinAbstractCoroutineContextKey<B, E> : CapturmobileBase <CapturmobileKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<CapturmobileKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<CapturmobileKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface CapturmobileKotlinx_coroutines_coreCoroutineDispatcherKey : CapturmobileKotlinAbstractCoroutineContextKey<id<CapturmobileKotlinContinuationInterceptor>, CapturmobileKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<CapturmobileKotlinCoroutineContextKey>)baseKey safeCast:(id<CapturmobileKotlinCoroutineContextElement> _Nullable (^)(id<CapturmobileKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol CapturmobileKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end
+
+__attribute__((swift_name("Ktor_ioByteReadChannel")))
+@protocol CapturmobileKtor_ioByteReadChannel
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)awaitContentWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(completionHandler:)")));
+- (BOOL)cancelCause_:(CapturmobileKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)discardMax:(int64_t)max completionHandler:(void (^)(CapturmobileLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("discard(max:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)peekToDestination:(CapturmobileKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max completionHandler:(void (^)(CapturmobileLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(CapturmobileKtor_ioChunkBuffer *)dst completionHandler:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(CapturmobileKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler:)")));
+- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(CapturmobileKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler_:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler__:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readBooleanWithCompletionHandler:(void (^)(CapturmobileBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readBoolean(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readByteWithCompletionHandler:(void (^)(CapturmobileByte * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readByte(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readDoubleWithCompletionHandler:(void (^)(CapturmobileDouble * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readDouble(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFloatWithCompletionHandler:(void (^)(CapturmobileFloat * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readFloat(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(CapturmobileKtor_ioChunkBuffer *)dst n:(int32_t)n completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:n:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(CapturmobileKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler_:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler__:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readIntWithCompletionHandler:(void (^)(CapturmobileInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readInt(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readLongWithCompletionHandler:(void (^)(CapturmobileLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readLong(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readPacketSize:(int32_t)size completionHandler:(void (^)(CapturmobileKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readPacket(size:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readRemainingLimit:(int64_t)limit completionHandler:(void (^)(CapturmobileKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readRemaining(limit:completionHandler:)")));
+- (void)readSessionConsumer:(void (^)(id<CapturmobileKtor_ioReadSession>))consumer __attribute__((swift_name("readSession(consumer:)"))) __attribute__((deprecated("Use read { } instead.")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readShortWithCompletionHandler:(void (^)(CapturmobileShort * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readShort(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readSuspendableSessionConsumer:(id<CapturmobileKotlinSuspendFunction1>)consumer completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readSuspendableSession(consumer:completionHandler:)"))) __attribute__((deprecated("Use read { } instead.")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readUTF8LineLimit:(int32_t)limit completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8Line(limit:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readUTF8LineToOut:(id<CapturmobileKotlinAppendable>)out limit:(int32_t)limit completionHandler:(void (^)(CapturmobileBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8LineTo(out:limit:completionHandler:)")));
+@property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
+@property (readonly) CapturmobileKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
+@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
+@property (readonly) BOOL isClosedForWrite __attribute__((swift_name("isClosedForWrite")));
+@property (readonly) int64_t totalBytesRead __attribute__((swift_name("totalBytesRead")));
+@end
+
+__attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
+@protocol CapturmobileKtor_utilsStringValuesBuilder
+@required
+- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
+- (void)appendAllStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
+- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
+- (void)appendMissingStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
+- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
+- (id<CapturmobileKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<CapturmobileKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
+- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
+- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
+- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end
+
+__attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
+@interface CapturmobileKtor_utilsStringValuesBuilderImpl : CapturmobileBase <CapturmobileKtor_utilsStringValuesBuilder>
+- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer));
+- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
+- (void)appendAllStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
+- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
+- (void)appendMissingStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
+- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
+- (id<CapturmobileKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<CapturmobileKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
+- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
+- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
+- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@property (readonly) CapturmobileMutableDictionary<NSString *, NSMutableArray<NSString *> *> *values __attribute__((swift_name("values")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeadersBuilder")))
+@interface CapturmobileKtor_httpHeadersBuilder : CapturmobileKtor_utilsStringValuesBuilderImpl
+- (instancetype)initWithSize:(int32_t)size __attribute__((swift_name("init(size:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (id<CapturmobileKtor_httpHeaders>)build __attribute__((swift_name("build()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder.Companion")))
+@interface CapturmobileKtor_client_coreHttpRequestBuilderCompanion : CapturmobileBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) CapturmobileKtor_utilsAttributeKey<id> *CustomResponse __attribute__((swift_name("CustomResponse"))) __attribute__((unavailable("This is going to be removed. Please file a ticket with clarification why and what for do you need it.")));
+@property (class, readonly, getter=shared) CapturmobileKtor_client_coreHttpRequestBuilderCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLBuilder")))
+@interface CapturmobileKtor_httpURLBuilder : CapturmobileBase
+- (instancetype)initWithProtocol:(CapturmobileKtor_httpURLProtocol *)protocol host:(NSString *)host port:(int32_t)port user:(NSString * _Nullable)user password:(NSString * _Nullable)password pathSegments:(NSArray<NSString *> *)pathSegments parameters:(id<CapturmobileKtor_httpParameters>)parameters fragment:(NSString *)fragment trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:port:user:password:pathSegments:parameters:fragment:trailingQuery:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpURLBuilderCompanion *companion __attribute__((swift_name("companion")));
+- (CapturmobileKtor_httpUrl *)build __attribute__((swift_name("build()")));
+- (NSString *)buildString __attribute__((swift_name("buildString()")));
+@property NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property id<CapturmobileKtor_httpParametersBuilder> encodedParameters __attribute__((swift_name("encodedParameters")));
+@property NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property NSArray<NSString *> *encodedPathSegments __attribute__((swift_name("encodedPathSegments")));
+@property NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property NSString *fragment __attribute__((swift_name("fragment")));
+@property NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<CapturmobileKtor_httpParametersBuilder> parameters __attribute__((swift_name("parameters")));
+@property NSString * _Nullable password __attribute__((swift_name("password")));
+@property NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property int32_t port __attribute__((swift_name("port")));
+@property CapturmobileKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property NSString * _Nullable user __attribute__((swift_name("user")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2779,6 +2591,16 @@ __attribute__((swift_name("Ktor_utilsTypeInfo")))
 @property (readonly) id<CapturmobileKotlinKClass> type __attribute__((swift_name("type")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
+@interface CapturmobileKtor_client_coreHttpClientCallCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) CapturmobileKtor_utilsAttributeKey<id> *CustomResponse __attribute__((swift_name("CustomResponse"))) __attribute__((unavailable("This is going to be removed. Please file a ticket with clarification why and what for do you need it.")));
+@end
+
 __attribute__((swift_name("Ktor_client_coreHttpRequest")))
 @protocol CapturmobileKtor_client_coreHttpRequest <CapturmobileKtor_httpHttpMessage, CapturmobileKotlinx_coroutines_coreCoroutineScope>
 @required
@@ -2787,6 +2609,241 @@ __attribute__((swift_name("Ktor_client_coreHttpRequest")))
 @property (readonly) CapturmobileKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
 @property (readonly) CapturmobileKtor_httpHttpMethod *method __attribute__((swift_name("method")));
 @property (readonly) CapturmobileKtor_httpUrl *url __attribute__((swift_name("url")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl.Companion")))
+@interface CapturmobileKtor_httpUrlCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Ktor_httpParameters")))
+@protocol CapturmobileKtor_httpParameters <CapturmobileKtor_utilsStringValues>
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol")))
+@interface CapturmobileKtor_httpURLProtocol : CapturmobileBase
+- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
+@interface CapturmobileKtor_httpHttpMethodCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
+- (CapturmobileKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
+@property (readonly) NSArray<CapturmobileKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
+@property (readonly) CapturmobileKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
+@end
+
+__attribute__((swift_name("KotlinMapEntry")))
+@protocol CapturmobileKotlinMapEntry
+@required
+@property (readonly) id _Nullable key __attribute__((swift_name("key")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end
+
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
+@interface CapturmobileKtor_httpHeaderValueWithParameters : CapturmobileBase
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<CapturmobileKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) NSArray<CapturmobileKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpContentType")))
+@interface CapturmobileKtor_httpContentType : CapturmobileKtor_httpHeaderValueWithParameters
+- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<CapturmobileKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<CapturmobileKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) CapturmobileKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)matchPattern:(CapturmobileKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
+- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
+- (CapturmobileKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
+- (CapturmobileKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
+@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
+@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol CapturmobileKotlinx_coroutines_coreChildHandle <CapturmobileKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(CapturmobileKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<CapturmobileKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol CapturmobileKotlinx_coroutines_coreChildJob <CapturmobileKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<CapturmobileKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol CapturmobileKotlinSequence
+@required
+- (id<CapturmobileKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol CapturmobileKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<CapturmobileKotlinx_coroutines_coreSelectInstance>)select block:(id<CapturmobileKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
+@interface CapturmobileKtor_httpHttpStatusCodeCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_httpHttpStatusCodeCompanion *shared __attribute__((swift_name("shared")));
+- (CapturmobileKtor_httpHttpStatusCode *)fromValueValue:(int32_t)value __attribute__((swift_name("fromValue(value:)")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Accepted __attribute__((swift_name("Accepted")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *BadGateway __attribute__((swift_name("BadGateway")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *BadRequest __attribute__((swift_name("BadRequest")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Conflict __attribute__((swift_name("Conflict")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Continue __attribute__((swift_name("Continue")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Created __attribute__((swift_name("Created")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *ExpectationFailed __attribute__((swift_name("ExpectationFailed")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *FailedDependency __attribute__((swift_name("FailedDependency")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Forbidden __attribute__((swift_name("Forbidden")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Found __attribute__((swift_name("Found")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *GatewayTimeout __attribute__((swift_name("GatewayTimeout")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Gone __attribute__((swift_name("Gone")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *InsufficientStorage __attribute__((swift_name("InsufficientStorage")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *InternalServerError __attribute__((swift_name("InternalServerError")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *LengthRequired __attribute__((swift_name("LengthRequired")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Locked __attribute__((swift_name("Locked")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *MethodNotAllowed __attribute__((swift_name("MethodNotAllowed")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *MovedPermanently __attribute__((swift_name("MovedPermanently")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *MultiStatus __attribute__((swift_name("MultiStatus")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *MultipleChoices __attribute__((swift_name("MultipleChoices")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *NoContent __attribute__((swift_name("NoContent")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *NonAuthoritativeInformation __attribute__((swift_name("NonAuthoritativeInformation")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotAcceptable __attribute__((swift_name("NotAcceptable")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotFound __attribute__((swift_name("NotFound")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotImplemented __attribute__((swift_name("NotImplemented")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotModified __attribute__((swift_name("NotModified")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *OK __attribute__((swift_name("OK")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *PartialContent __attribute__((swift_name("PartialContent")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *PayloadTooLarge __attribute__((swift_name("PayloadTooLarge")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *PaymentRequired __attribute__((swift_name("PaymentRequired")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *PermanentRedirect __attribute__((swift_name("PermanentRedirect")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *PreconditionFailed __attribute__((swift_name("PreconditionFailed")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Processing __attribute__((swift_name("Processing")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *ProxyAuthenticationRequired __attribute__((swift_name("ProxyAuthenticationRequired")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestHeaderFieldTooLarge __attribute__((swift_name("RequestHeaderFieldTooLarge")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestTimeout __attribute__((swift_name("RequestTimeout")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestURITooLong __attribute__((swift_name("RequestURITooLong")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestedRangeNotSatisfiable __attribute__((swift_name("RequestedRangeNotSatisfiable")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *ResetContent __attribute__((swift_name("ResetContent")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *SeeOther __attribute__((swift_name("SeeOther")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *ServiceUnavailable __attribute__((swift_name("ServiceUnavailable")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *SwitchProxy __attribute__((swift_name("SwitchProxy")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *SwitchingProtocols __attribute__((swift_name("SwitchingProtocols")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *TemporaryRedirect __attribute__((swift_name("TemporaryRedirect")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *TooManyRequests __attribute__((swift_name("TooManyRequests")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *Unauthorized __attribute__((swift_name("Unauthorized")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *UnprocessableEntity __attribute__((swift_name("UnprocessableEntity")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *UnsupportedMediaType __attribute__((swift_name("UnsupportedMediaType")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *UpgradeRequired __attribute__((swift_name("UpgradeRequired")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *UseProxy __attribute__((swift_name("UseProxy")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *VariantAlsoNegotiates __attribute__((swift_name("VariantAlsoNegotiates")));
+@property (readonly) CapturmobileKtor_httpHttpStatusCode *VersionNotSupported __attribute__((swift_name("VersionNotSupported")));
+@property (readonly) NSArray<CapturmobileKtor_httpHttpStatusCode *> *allStatusCodes __attribute__((swift_name("allStatusCodes")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
+@interface CapturmobileKtor_utilsGMTDateCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) CapturmobileKtor_utilsGMTDate *START __attribute__((swift_name("START")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay")))
+@interface CapturmobileKtor_utilsWeekDay : CapturmobileKotlinEnum<CapturmobileKtor_utilsWeekDay *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) CapturmobileKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
+@property (class, readonly) CapturmobileKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
++ (CapturmobileKotlinArray<CapturmobileKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth")))
+@interface CapturmobileKtor_utilsMonth : CapturmobileKotlinEnum<CapturmobileKtor_utilsMonth *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) CapturmobileKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *january __attribute__((swift_name("january")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *february __attribute__((swift_name("february")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *march __attribute__((swift_name("march")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *april __attribute__((swift_name("april")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *may __attribute__((swift_name("may")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *june __attribute__((swift_name("june")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *july __attribute__((swift_name("july")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *august __attribute__((swift_name("august")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *september __attribute__((swift_name("september")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *october __attribute__((swift_name("october")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *november __attribute__((swift_name("november")));
+@property (class, readonly) CapturmobileKtor_utilsMonth *december __attribute__((swift_name("december")));
++ (CapturmobileKotlinArray<CapturmobileKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
+@interface CapturmobileKtor_httpHttpProtocolVersionCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
+- (CapturmobileKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
+- (CapturmobileKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
+@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
+@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
+@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
+@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2942,358 +2999,17 @@ __attribute__((swift_name("KotlinAppendable")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
-@interface CapturmobileKtor_utilsGMTDateCompanion : CapturmobileBase
+__attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
+@interface CapturmobileKtor_httpURLBuilderCompanion : CapturmobileBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) CapturmobileKtor_utilsGMTDate *START __attribute__((swift_name("START")));
+@property (class, readonly, getter=shared) CapturmobileKtor_httpURLBuilderCompanion *shared __attribute__((swift_name("shared")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay")))
-@interface CapturmobileKtor_utilsWeekDay : CapturmobileKotlinEnum<CapturmobileKtor_utilsWeekDay *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) CapturmobileKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
-@property (class, readonly) CapturmobileKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
-+ (CapturmobileKotlinArray<CapturmobileKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth")))
-@interface CapturmobileKtor_utilsMonth : CapturmobileKotlinEnum<CapturmobileKtor_utilsMonth *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) CapturmobileKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *january __attribute__((swift_name("january")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *february __attribute__((swift_name("february")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *march __attribute__((swift_name("march")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *april __attribute__((swift_name("april")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *may __attribute__((swift_name("may")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *june __attribute__((swift_name("june")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *july __attribute__((swift_name("july")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *august __attribute__((swift_name("august")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *september __attribute__((swift_name("september")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *october __attribute__((swift_name("october")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *november __attribute__((swift_name("november")));
-@property (class, readonly) CapturmobileKtor_utilsMonth *december __attribute__((swift_name("december")));
-+ (CapturmobileKotlinArray<CapturmobileKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
-@interface CapturmobileKtor_httpHttpStatusCodeCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_httpHttpStatusCodeCompanion *shared __attribute__((swift_name("shared")));
-- (CapturmobileKtor_httpHttpStatusCode *)fromValueValue:(int32_t)value __attribute__((swift_name("fromValue(value:)")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Accepted __attribute__((swift_name("Accepted")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *BadGateway __attribute__((swift_name("BadGateway")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *BadRequest __attribute__((swift_name("BadRequest")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Conflict __attribute__((swift_name("Conflict")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Continue __attribute__((swift_name("Continue")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Created __attribute__((swift_name("Created")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *ExpectationFailed __attribute__((swift_name("ExpectationFailed")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *FailedDependency __attribute__((swift_name("FailedDependency")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Forbidden __attribute__((swift_name("Forbidden")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Found __attribute__((swift_name("Found")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *GatewayTimeout __attribute__((swift_name("GatewayTimeout")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Gone __attribute__((swift_name("Gone")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *InsufficientStorage __attribute__((swift_name("InsufficientStorage")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *InternalServerError __attribute__((swift_name("InternalServerError")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *LengthRequired __attribute__((swift_name("LengthRequired")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Locked __attribute__((swift_name("Locked")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *MethodNotAllowed __attribute__((swift_name("MethodNotAllowed")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *MovedPermanently __attribute__((swift_name("MovedPermanently")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *MultiStatus __attribute__((swift_name("MultiStatus")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *MultipleChoices __attribute__((swift_name("MultipleChoices")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *NoContent __attribute__((swift_name("NoContent")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *NonAuthoritativeInformation __attribute__((swift_name("NonAuthoritativeInformation")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotAcceptable __attribute__((swift_name("NotAcceptable")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotFound __attribute__((swift_name("NotFound")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotImplemented __attribute__((swift_name("NotImplemented")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *NotModified __attribute__((swift_name("NotModified")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *OK __attribute__((swift_name("OK")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *PartialContent __attribute__((swift_name("PartialContent")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *PayloadTooLarge __attribute__((swift_name("PayloadTooLarge")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *PaymentRequired __attribute__((swift_name("PaymentRequired")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *PermanentRedirect __attribute__((swift_name("PermanentRedirect")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *PreconditionFailed __attribute__((swift_name("PreconditionFailed")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Processing __attribute__((swift_name("Processing")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *ProxyAuthenticationRequired __attribute__((swift_name("ProxyAuthenticationRequired")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestHeaderFieldTooLarge __attribute__((swift_name("RequestHeaderFieldTooLarge")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestTimeout __attribute__((swift_name("RequestTimeout")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestURITooLong __attribute__((swift_name("RequestURITooLong")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *RequestedRangeNotSatisfiable __attribute__((swift_name("RequestedRangeNotSatisfiable")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *ResetContent __attribute__((swift_name("ResetContent")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *SeeOther __attribute__((swift_name("SeeOther")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *ServiceUnavailable __attribute__((swift_name("ServiceUnavailable")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *SwitchProxy __attribute__((swift_name("SwitchProxy")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *SwitchingProtocols __attribute__((swift_name("SwitchingProtocols")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *TemporaryRedirect __attribute__((swift_name("TemporaryRedirect")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *TooManyRequests __attribute__((swift_name("TooManyRequests")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *Unauthorized __attribute__((swift_name("Unauthorized")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *UnprocessableEntity __attribute__((swift_name("UnprocessableEntity")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *UnsupportedMediaType __attribute__((swift_name("UnsupportedMediaType")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *UpgradeRequired __attribute__((swift_name("UpgradeRequired")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *UseProxy __attribute__((swift_name("UseProxy")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *VariantAlsoNegotiates __attribute__((swift_name("VariantAlsoNegotiates")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode *VersionNotSupported __attribute__((swift_name("VersionNotSupported")));
-@property (readonly) NSArray<CapturmobileKtor_httpHttpStatusCode *> *allStatusCodes __attribute__((swift_name("allStatusCodes")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
-@interface CapturmobileKtor_httpHttpProtocolVersionCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
-- (CapturmobileKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
-- (CapturmobileKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
-@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
-@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
-@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
-@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
-@property (readonly) CapturmobileKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl")))
-@interface CapturmobileKtor_httpUrl : CapturmobileBase
-@property (class, readonly, getter=companion) CapturmobileKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
-@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
-@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
-@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
-@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
-@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
-@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
-@property (readonly) NSString *host __attribute__((swift_name("host")));
-@property (readonly) id<CapturmobileKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
-@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
-@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
-@property (readonly) int32_t port __attribute__((swift_name("port")));
-@property (readonly) CapturmobileKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
-@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
-@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
-@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpMethod")))
-@interface CapturmobileKtor_httpHttpMethod : CapturmobileBase
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("Ktor_httpOutgoingContent")))
-@interface CapturmobileKtor_httpOutgoingContent : CapturmobileBase
-- (id _Nullable)getPropertyKey:(CapturmobileKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
-- (void)setPropertyKey:(CapturmobileKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
-- (id<CapturmobileKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
-@property (readonly) CapturmobileLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
-@property (readonly) CapturmobileKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
-@property (readonly) id<CapturmobileKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) CapturmobileKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol CapturmobileKotlinx_coroutines_coreJob <CapturmobileKotlinCoroutineContextElement>
+__attribute__((swift_name("Ktor_httpParametersBuilder")))
+@protocol CapturmobileKtor_httpParametersBuilder <CapturmobileKtor_utilsStringValuesBuilder>
 @required
-- (id<CapturmobileKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<CapturmobileKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause_:(CapturmobileKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
-- (CapturmobileKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<CapturmobileKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(CapturmobileKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<CapturmobileKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(CapturmobileKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<CapturmobileKotlinx_coroutines_coreJob>)plusOther_:(id<CapturmobileKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<CapturmobileKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<CapturmobileKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuation")))
-@protocol CapturmobileKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly, getter=context_) id<CapturmobileKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface CapturmobileKotlinAbstractCoroutineContextKey<B, E> : CapturmobileBase <CapturmobileKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<CapturmobileKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<CapturmobileKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface CapturmobileKotlinx_coroutines_coreCoroutineDispatcherKey : CapturmobileKotlinAbstractCoroutineContextKey<id<CapturmobileKotlinContinuationInterceptor>, CapturmobileKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<CapturmobileKotlinCoroutineContextKey>)baseKey safeCast:(id<CapturmobileKotlinCoroutineContextElement> _Nullable (^)(id<CapturmobileKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol CapturmobileKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end
-
-__attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
-@protocol CapturmobileKtor_utilsStringValuesBuilder
-@required
-- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
-- (void)appendAllStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
-- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
-- (void)appendMissingStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
-- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
-- (id<CapturmobileKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
-- (void)clear __attribute__((swift_name("clear()")));
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<CapturmobileKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
-- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
-- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
-- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
-@end
-
-__attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
-@interface CapturmobileKtor_utilsStringValuesBuilderImpl : CapturmobileBase <CapturmobileKtor_utilsStringValuesBuilder>
-- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer));
-- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
-- (void)appendAllStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
-- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
-- (void)appendMissingStringValues:(id<CapturmobileKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
-- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
-- (id<CapturmobileKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
-- (void)clear __attribute__((swift_name("clear()")));
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<CapturmobileKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
-- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
-- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
-- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
-@property (readonly) CapturmobileMutableDictionary<NSString *, NSMutableArray<NSString *> *> *values __attribute__((swift_name("values")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeadersBuilder")))
-@interface CapturmobileKtor_httpHeadersBuilder : CapturmobileKtor_utilsStringValuesBuilderImpl
-- (instancetype)initWithSize:(int32_t)size __attribute__((swift_name("init(size:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (id<CapturmobileKtor_httpHeaders>)build __attribute__((swift_name("build()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder.Companion")))
-@interface CapturmobileKtor_client_coreHttpRequestBuilderCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_client_coreHttpRequestBuilderCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLBuilder")))
-@interface CapturmobileKtor_httpURLBuilder : CapturmobileBase
-- (instancetype)initWithProtocol:(CapturmobileKtor_httpURLProtocol *)protocol host:(NSString *)host port:(int32_t)port user:(NSString * _Nullable)user password:(NSString * _Nullable)password pathSegments:(NSArray<NSString *> *)pathSegments parameters:(id<CapturmobileKtor_httpParameters>)parameters fragment:(NSString *)fragment trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:port:user:password:pathSegments:parameters:fragment:trailingQuery:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpURLBuilderCompanion *companion __attribute__((swift_name("companion")));
-- (CapturmobileKtor_httpUrl *)build __attribute__((swift_name("build()")));
-- (NSString *)buildString __attribute__((swift_name("buildString()")));
-@property NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
-@property id<CapturmobileKtor_httpParametersBuilder> encodedParameters __attribute__((swift_name("encodedParameters")));
-@property NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
-@property NSArray<NSString *> *encodedPathSegments __attribute__((swift_name("encodedPathSegments")));
-@property NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
-@property NSString *fragment __attribute__((swift_name("fragment")));
-@property NSString *host __attribute__((swift_name("host")));
-@property (readonly) id<CapturmobileKtor_httpParametersBuilder> parameters __attribute__((swift_name("parameters")));
-@property NSString * _Nullable password __attribute__((swift_name("password")));
-@property NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
-@property int32_t port __attribute__((swift_name("port")));
-@property CapturmobileKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
-@property BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
-@property NSString * _Nullable user __attribute__((swift_name("user")));
 @end
 
 __attribute__((swift_name("KotlinKType")))
@@ -3312,221 +3028,6 @@ __attribute__((swift_name("KotlinKType")))
 */
 @property (readonly) id<CapturmobileKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
 @property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioMemory.Companion")))
-@interface CapturmobileKtor_ioMemoryCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_ioMemoryCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) CapturmobileKtor_ioMemory *Empty __attribute__((swift_name("Empty")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioBuffer.Companion")))
-@interface CapturmobileKtor_ioBufferCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_ioBufferCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) CapturmobileKtor_ioBuffer *Empty __attribute__((swift_name("Empty")));
-@property (readonly) int32_t ReservedSize __attribute__((swift_name("ReservedSize")));
-@end
-
-__attribute__((swift_name("Ktor_ioObjectPool")))
-@protocol CapturmobileKtor_ioObjectPool <CapturmobileKtor_ioCloseable>
-@required
-- (id)borrow __attribute__((swift_name("borrow()")));
-- (void)dispose __attribute__((swift_name("dispose()")));
-- (void)recycleInstance:(id)instance __attribute__((swift_name("recycle(instance:)")));
-@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioChunkBuffer.Companion")))
-@interface CapturmobileKtor_ioChunkBufferCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_ioChunkBufferCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) CapturmobileKtor_ioChunkBuffer *Empty __attribute__((swift_name("Empty")));
-@property (readonly) id<CapturmobileKtor_ioObjectPool> EmptyPool __attribute__((swift_name("EmptyPool")));
-@property (readonly) id<CapturmobileKtor_ioObjectPool> Pool __attribute__((swift_name("Pool")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioInput.Companion")))
-@interface CapturmobileKtor_ioInputCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_ioInputCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioByteReadPacket.Companion")))
-@interface CapturmobileKtor_ioByteReadPacketCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_ioByteReadPacketCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) CapturmobileKtor_ioByteReadPacket *Empty __attribute__((swift_name("Empty")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
-@interface CapturmobileKtor_utilsWeekDayCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
-- (CapturmobileKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (CapturmobileKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth.Companion")))
-@interface CapturmobileKtor_utilsMonthCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
-- (CapturmobileKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (CapturmobileKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl.Companion")))
-@interface CapturmobileKtor_httpUrlCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Ktor_httpParameters")))
-@protocol CapturmobileKtor_httpParameters <CapturmobileKtor_utilsStringValues>
-@required
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLProtocol")))
-@interface CapturmobileKtor_httpURLProtocol : CapturmobileBase
-- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
-@interface CapturmobileKtor_httpHttpMethodCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
-- (CapturmobileKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
-@property (readonly) NSArray<CapturmobileKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
-@property (readonly) CapturmobileKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
-@end
-
-__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
-@interface CapturmobileKtor_httpHeaderValueWithParameters : CapturmobileBase
-- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<CapturmobileKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *content __attribute__((swift_name("content")));
-@property (readonly) NSArray<CapturmobileKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpContentType")))
-@interface CapturmobileKtor_httpContentType : CapturmobileKtor_httpHeaderValueWithParameters
-- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<CapturmobileKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<CapturmobileKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) CapturmobileKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)matchPattern:(CapturmobileKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
-- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
-- (CapturmobileKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
-- (CapturmobileKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
-@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
-@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol CapturmobileKotlinx_coroutines_coreChildHandle <CapturmobileKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(CapturmobileKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<CapturmobileKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol CapturmobileKotlinx_coroutines_coreChildJob <CapturmobileKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<CapturmobileKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol CapturmobileKotlinSequence
-@required
-- (id<CapturmobileKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol CapturmobileKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<CapturmobileKotlinx_coroutines_coreSelectInstance>)select block:(id<CapturmobileKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
-@interface CapturmobileKtor_httpURLBuilderCompanion : CapturmobileBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) CapturmobileKtor_httpURLBuilderCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Ktor_httpParametersBuilder")))
-@protocol CapturmobileKtor_httpParametersBuilder <CapturmobileKtor_utilsStringValuesBuilder>
-@required
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKTypeProjection")))
-@interface CapturmobileKotlinKTypeProjection : CapturmobileBase
-- (instancetype)initWithVariance:(CapturmobileKotlinKVariance * _Nullable)variance type:(id<CapturmobileKotlinKType> _Nullable)type __attribute__((swift_name("init(variance:type:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) CapturmobileKotlinKTypeProjectionCompanion *companion __attribute__((swift_name("companion")));
-- (CapturmobileKotlinKVariance * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id<CapturmobileKotlinKType> _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (CapturmobileKotlinKTypeProjection *)doCopyVariance:(CapturmobileKotlinKVariance * _Nullable)variance type:(id<CapturmobileKotlinKType> _Nullable)type __attribute__((swift_name("doCopy(variance:type:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<CapturmobileKotlinKType> _Nullable type __attribute__((swift_name("type")));
-@property (readonly) CapturmobileKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3612,6 +3113,143 @@ __attribute__((swift_name("KotlinSuspendFunction0")))
 - (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
+@interface CapturmobileKtor_utilsWeekDayCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
+- (CapturmobileKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (CapturmobileKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth.Companion")))
+@interface CapturmobileKtor_utilsMonthCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
+- (CapturmobileKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (CapturmobileKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioMemory.Companion")))
+@interface CapturmobileKtor_ioMemoryCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_ioMemoryCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) CapturmobileKtor_ioMemory *Empty __attribute__((swift_name("Empty")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioBuffer.Companion")))
+@interface CapturmobileKtor_ioBufferCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_ioBufferCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) CapturmobileKtor_ioBuffer *Empty __attribute__((swift_name("Empty")));
+@property (readonly) int32_t ReservedSize __attribute__((swift_name("ReservedSize")));
+@end
+
+__attribute__((swift_name("Ktor_ioObjectPool")))
+@protocol CapturmobileKtor_ioObjectPool <CapturmobileKtor_ioCloseable>
+@required
+- (id)borrow __attribute__((swift_name("borrow()")));
+- (void)dispose __attribute__((swift_name("dispose()")));
+- (void)recycleInstance:(id)instance __attribute__((swift_name("recycle(instance:)")));
+@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioChunkBuffer.Companion")))
+@interface CapturmobileKtor_ioChunkBufferCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_ioChunkBufferCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) CapturmobileKtor_ioChunkBuffer *Empty __attribute__((swift_name("Empty")));
+@property (readonly) id<CapturmobileKtor_ioObjectPool> EmptyPool __attribute__((swift_name("EmptyPool")));
+@property (readonly) id<CapturmobileKtor_ioObjectPool> Pool __attribute__((swift_name("Pool")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioInput.Companion")))
+@interface CapturmobileKtor_ioInputCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_ioInputCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioByteReadPacket.Companion")))
+@interface CapturmobileKtor_ioByteReadPacketCompanion : CapturmobileBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) CapturmobileKtor_ioByteReadPacketCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) CapturmobileKtor_ioByteReadPacket *Empty __attribute__((swift_name("Empty")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKTypeProjection")))
+@interface CapturmobileKotlinKTypeProjection : CapturmobileBase
+- (instancetype)initWithVariance:(CapturmobileKotlinKVariance * _Nullable)variance type:(id<CapturmobileKotlinKType> _Nullable)type __attribute__((swift_name("init(variance:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) CapturmobileKotlinKTypeProjectionCompanion *companion __attribute__((swift_name("companion")));
+- (CapturmobileKotlinKVariance * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (id<CapturmobileKotlinKType> _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (CapturmobileKotlinKTypeProjection *)doCopyVariance:(CapturmobileKotlinKVariance * _Nullable)variance type:(id<CapturmobileKotlinKType> _Nullable)type __attribute__((swift_name("doCopy(variance:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<CapturmobileKotlinKType> _Nullable type __attribute__((swift_name("type")));
+@property (readonly) CapturmobileKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
+@interface CapturmobileKotlinx_coroutines_coreAtomicDesc : CapturmobileBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(CapturmobileKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)prepareOp:(CapturmobileKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+@property CapturmobileKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
+@interface CapturmobileKotlinx_coroutines_coreOpDescriptor : CapturmobileBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEarlierThanThat:(CapturmobileKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) CapturmobileKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
+@interface CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : CapturmobileKotlinx_coroutines_coreOpDescriptor
+- (instancetype)initWithAffected:(CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
+@property (readonly) CapturmobileKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
+@property (readonly) CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
+@end
+
 
 /**
  * @note annotations
@@ -3655,40 +3293,6 @@ __attribute__((swift_name("KotlinKTypeProjection.Companion")))
 */
 - (CapturmobileKotlinKTypeProjection *)invariantType:(id<CapturmobileKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
 @property (readonly) CapturmobileKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface CapturmobileKotlinx_coroutines_coreAtomicDesc : CapturmobileBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(CapturmobileKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(CapturmobileKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property CapturmobileKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface CapturmobileKotlinx_coroutines_coreOpDescriptor : CapturmobileBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(CapturmobileKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : CapturmobileKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) CapturmobileKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) CapturmobileKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
